@@ -14,6 +14,16 @@ button {
 a {
     text-decoration: none;
 }
+.clearfix:before,.clearfix:after { 
+    content:"";
+    display:table; 
+  }
+  .clearfix:after {
+   clear:both;
+  }
+  .clearfix {
+    *zoom:1;
+  }
 .w {
     width: 1200px;
     margin: auto;
@@ -180,4 +190,91 @@ a {
 .goods-item a {
     margin:0 30px;
     color: #050505;
+}
+.mod {
+    float: right;
+    margin-right: 30px;
+    color: #00a4ff;
+}
+/* box */
+.box {
+    margin-top: 15px;
+}
+.box-hd {
+    height: 60px;
+    line-height: 60px;
+    
+}
+.box-hd h3 {
+    float: left;
+    font-size: 20px;
+    font-weight: 400;
+    color: #494949;
+}
+.box-hd a {
+    float: right;
+    margin-right: 30px;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+.box-bd {
+    width: 1215px;
+}
+.box-bd li {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+.box-bd li img {
+    width: 100%;
+}
+.box-bd li h4 {
+    margin: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #050505;
+}
+.box-bd li p {
+    margin: 0 20px;
+    font-size: 14px;
+    color:#999
+}
+.box-bd li span {
+    color: orange;
+}
+/* footer */
+.footer {
+    padding-top: 30px;
+    height: 385px;
+    background-color: #fff;
+}
+.copyright {
+    float: left;
+}
+.copyright p {
+    font-size: 12px;
+    margin: 20px 0 15px 0;
+    color: #666;
+}
+.app {
+    display: block;
+    width: 118px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border: 1px solid #00a4ff;
+    color: #00a4ff;
+    font-size: 14px;
+}
+.links {
+    float: right;
+}
+.links dl {
+
+    float: left;
+    margin-right: 100px;
 }
